@@ -1,5 +1,5 @@
 //Enlace de la API con los primeros 150 Pokémon de la primera generación.
-const API_URL = "https://pokeapi.co/api/v2/pokemon?limit=150";
+const API_URL = "https://pokeapi.co/api/v2/pokemon?limit=251";
 
 //Elementos del DOM.
 const container = document.getElementById("data-container");
