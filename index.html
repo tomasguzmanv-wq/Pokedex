@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Título de la página.-->
+  <title>Pokédex</title>
+
+  <!--Bootstrap.-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Encabezado principal.-->
+  <header class="bg-danger text-white text-center py-4">
+    <h1 class="mb-3">Pokédex</h1>
+
+    <!--Campo de búsqueda.-->
+    <input 
+      type="text" 
+      id="search" 
+      class="form-control w-50 mx-auto" 
+      placeholder="Buscar Pokémon por nombre, tipo o ID...">
+  </header>
+
+  <!--Contenedor principal donde se mostrarán los Pokémon.-->
+  <main id="data-container" class="container my-4 d-flex flex-wrap justify-content-center gap-3"></main>
+
+  </main>
+
+  <!--Bootstrap js.-->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <!--Ejecución del archivo js.-->
+  <script src="script.js"></script>
+  
+</body>
+</html>
